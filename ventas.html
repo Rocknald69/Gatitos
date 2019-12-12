@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<!-- Aqui comienza el NavBar -->
+    <nav class="fadeInDown">
+        <div class="brand_image">
+            <a href="index.html"><img src="images/Logo_brand.png" alt="Logotipo"></a>
+        </div>
+        <div class="nav_options">
+           
+            <ul>
+                <li><a href="#">FAQ'S</a></li>
+                <li><a href="producto.html">Productos y Servicios</a></li>
+            </ul>   
+
+        </div>  
+    </nav>
+<!-- formulario ventas  -->
+ 
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-4">
+            <div class="modulo_pago">
+                <div class="modulo_pago_images"><img src="images/box2.png" alt=""></div>
+                
+                <h3>
+                    Producto 1
+                </h3>
+                <p>
+                        Miles de productos hay en el mercado, pero nada como una caja con gatitos, Miles de productos hay en el mercado, pero nada como una caja con gatitos
+
+                </p>
+            </div>
+        </div>
+        <div class="col-8ventas">
+            <div class="modulo_pago"> 
+                <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=MGSULM9GQWB2U&lc=AL&item_name=Caja%20de%20Gatitos&amount=5%2e00&currency_code=USD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted" method="post">
+                        <label for="name">Nombre</label> 
+                        <br>
+                        <input type="text" placeholder="" name="name" class="data" >
+                        <br>
+                        <label for="mail">E-Mail</label>
+                        <br>
+                        <input type="text" placeholder="" name="mail" class="data" >
+                        <br>
+                        <label for="phone">Telefono</label>
+                        <br>
+                        <input type="number" placeholder="" name="phone" class="data"> 
+                        <input type="submit" class="main_button" name="submit" value="Confirmar Pago">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<!-- start footer -->
+<footer>
+    <div class="terms_conditions"><a href="#">Términos y condiciones</a></div>
+    
+    <div class="contact"><a href="#">Contacto</a></div>
+</footer>
+
+
+    <!-- <script src="js/script.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,243 @@
+/* -----------------Variables */
+:root {
+    --green-color:#7ACC2D;
+    --white-color:white;
+    --black-color:#313337;
+/* Espaciado */
+    --space:10px;
+/* tipografias */
+    --normal:12px;
+/* Box shadow */
+    --box:0px 0 2px 1px #9f9ea0;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+/* ------------------------- */
+html,body {
+    padding: 0px;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* NavBar section */
+
+nav {
+    display: flex;
+    background: var(--green-color);
+    padding: var(--space);
+    color: var(--white-color);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a {
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: var(--white-color);
+}
+
+p, label {
+ font-size: var(--normal);
+}
+
+
+.brand_image img {
+    width: 33%;
+}
+
+/* Main section */
+
+.main_section {
+    padding: 15%;
+    text-align: center;
+}
+
+
+.products {
+    background-image: url("../images/curve.png");
+
+    background-size: cover;
+    background-position: center top;
+    padding: 15%;
+    display: flex;
+}
+
+.product{
+    padding: var(--space);
+    margin-top: -240px;
+    
+}
+
+.product .content {
+    background-color:var(--white-color);
+    padding: var(--space);
+    box-shadow: 0 1px 6px 0 #9f9ea0;
+    
+}
+.image_content{
+    text-align: center;
+}
+
+.main_button{
+    background-color: var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal);
+    color:var(--white-color);
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.main_button:hover {
+    background-color: #6aa731;
+}
+
+/* Second section */
+
+.second_section {
+    display:flex;
+}
+.references {
+    display: flex;
+    padding: 5% 10%;
+    justify-content: space-between;
+}
+
+.references img{
+    display: block;
+    margin: 0% auto;
+    width: 60%;
+}
+
+ .reference {
+    padding: 5%;
+    
+
+}
+.reference h2,
+.reference p {
+    margin-left: 10%;
+}
+
+
+.references .reference .image_content2{
+    text-align: center;
+
+}
+
+/* end Second Section */
+
+/* start second section */
+.third_section{
+    text-align: center;
+    margin: 0% 0% 5% 0%;
+    
+    
+}
+.mentions {
+    display: flex;
+    margin: 0% auto;
+    width: 75%;
+}
+
+.mentions img {
+    display: block;
+    margin: 0%;
+    width: 100%
+}
+.mention{
+    margin: 0% 1% 0% 0%;
+    box-shadow: 0 1px 6px 0 #9f9ea0;
+    text-align: justify ;
+}
+
+
+
+/*Star  products  */
+.row {
+    margin-top: 10%;
+}
+.col-4 img {
+    max-width: 90%;
+}
+.col-8 {
+    margin: 8% 0 0 0 ;
+    
+}
+.container  h1 {
+    margin :15% 0 0 -5%;
+}
+
+
+/* Start modulo_pago */
+
+.modulo_pago{
+    
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+    
+}
+
+.data {
+    margin-top: var(--space);
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid ;
+    box-sizing: border-box;
+}
+.modulo_pago_images {
+    max-width: 150px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.modulo_pago .main_button {
+    margin-top: var(--space);
+    
+}
+.col-8ventas{
+    margin-top: 20px;
+    width: 100%;
+    padding: var(--space);
+}
+/* start footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: #313337;
+    padding: 1.5%;
+    color: var(--white-color);
+    margin: 10% 0 0 0 ;
+    
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--green-color);
+
+}
+.contact a {
+    color: var(--green-color);
+}
+
+/* end footer */
+
